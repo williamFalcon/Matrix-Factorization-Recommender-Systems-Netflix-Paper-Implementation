@@ -11,7 +11,7 @@ Can be used in two ways:
 1. First: To recommend using only a users x product matrix along with a k value for # of features to discover.   
 ```python
     #import predictor
-    from matrix_factor_model import ProductRecommender
+    from recommender.matrix_factor_model import ProductRecommender
     
     # fake data. (2 users, three products)
     user_1 = [1, 2, 3]
@@ -30,7 +30,7 @@ Can be used in two ways:
 2. Second: To recommend when you want to provide a list of features for movies and only learn P (user -> feature strength).
 ```python
     #import predictor
-    from matrix_factor_model import ProductRecommender
+    from recommender.matrix_factor_model import ProductRecommender
     
     # fake data. (2 users, three products)
     user_1 = [1, 2, 3]
