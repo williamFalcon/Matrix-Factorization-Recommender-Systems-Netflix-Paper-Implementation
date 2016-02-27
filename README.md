@@ -1,4 +1,4 @@
-# ML-Tensor-Decomposition-recommender
+# ML Matrix Factorization recommender
 Implementation of the winning recommender system from the Netflix competition.
 Uses matrix decomposition to derive a P and Q matrix which can be used to make predictions.  
 Uses stochastic gradient descent to arrive at the solution.  
