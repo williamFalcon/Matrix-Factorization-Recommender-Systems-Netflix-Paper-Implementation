@@ -62,6 +62,8 @@ Can be used in two ways:
 |regularization_penalty   |0.02   |Penalty for over/under fitting   |
 |convergeance_threshold   |0.001   |Error amount to terminate (we solved the problem). Otherwise uses steps.   |  
     
-  
-contact:  
-will@hacstudios.com  
+## License  
+MIT  
+
+## Author  
+William Falcon  
