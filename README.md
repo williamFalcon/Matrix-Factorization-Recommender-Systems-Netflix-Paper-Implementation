@@ -23,7 +23,7 @@ Can be used in two ways:
     modelA.fit(data)
     
     # predict for user 2 
-    model.predict_instance(1)
+    modelA.predict_instance(1)
     # prints array([ 0.9053102 ,  2.02257811,  2.97001565])
 ```   
    
@@ -43,11 +43,11 @@ Can be used in two ways:
     Q = [product_1, product_2]
     
     # train model passing in Q
-    modelA = ProductRecommender()
-    modelA.fit(data, Q)
+    modelB = ProductRecommender()
+    modelB.fit(data, Q)
     
     # predict for user 2 
-    model.predict_instance(1)
+    modelB.predict_instance(1)
     # prints array([ 0.9053102 ,  2.02257811,  2.97001565])
 ```   
    
