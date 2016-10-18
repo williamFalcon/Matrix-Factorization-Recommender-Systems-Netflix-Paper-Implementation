@@ -1,5 +1,5 @@
 # ML Matrix Factorization recommender
-Implementation of the winning recommender system from the Netflix competition.
+Implementation of the [winning recommender system from the Netflix competition](https://datajobs.com/data-science-repo/Recommender-Systems-%5BNetflix%5D.pdf).
 Uses matrix decomposition to derive a P and Q matrix which can be used to make predictions.  
 Uses gradient descent to arrive at the solution.  
 
